@@ -66,6 +66,6 @@ on the website (includes a “Why contribute to Pitivi?” section).
 
 The pages in these categories need to be reworked. Help is welcome!
 Also, feel free to tag pages with these categories should you find that
-a page is woefully incomplete or outdated:
+a page is woefully incomplete or outdated:x
 
 -   [Probably obsolete](attic.md)
