@@ -938,9 +938,9 @@ class AudioPreviewer(Previewer, Zoomable, Loggable):
         # This line is necessary so we can instantiate GstTranscoder's
         # GstCpuThrottlingClock below.
         Gst.ElementFactory.make("uritranscodebin", None)
-        clock = GObject.new(GObject.type_from_name("GstCpuThrottlingClock"))
-        clock.props.cpu_usage = self._max_cpu_usage
-        self.pipeline.use_clock(clock)
+#        clock = GObject.new(GObject.type_from_name("GstCpuThrottlingClock"))
+#        clock.props.cpu_usage = self._max_cpu_usage
+#        self.pipeline.use_clock(clock)
         faked = self.pipeline.get_by_name("faked")
         faked.props.sync = True
         self._wavebin = self.pipeline.get_by_name("wave")
